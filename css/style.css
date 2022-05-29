@@ -1,0 +1,96 @@
+.navbar{
+    background:#87509c;
+}
+.hero{
+    background:#87509c;
+}
+.li-designer li:hover{
+    background:#643a79 ;
+    border-radius: 3px;
+}
+.btn-designer{
+    background: #eb7d4b;
+    color: white;
+    border: #eb7d4b;
+    border-radius: 2px;
+    transition: ease-in-out 0.4s;
+}
+.btn-designer:hover{
+    background:#f9844e;
+    color: white;
+    border: #eb7d4b;
+    border-radius: 0px;
+    
+    
+}
+/*next section color*/
+/*service part start*/
+.services{
+    background: #17c2a4;
+}
+/*colors:#e7f1f8*/
+/*meet the team part*/
+.meet{
+    background: #e7f1f8;
+}
+.text-designer{
+    color:#30bae7;
+}
+/*portfolio part start*/
+.portfolio{
+    background: #ffdd99;
+}
+.port-designer li{
+    list-style: none;
+    background: #ebc985;
+    display: inline-block;
+    border-radius: 3px;
+    
+}
+.port-designer li:hover{
+    background:white;
+    color:black;
+}
+@media only screen and (max-width:369px){
+    .port-designer li{
+        list-style: none;
+        background: #ebc985;
+        display:list-item;
+        border-radius: 0px;
+        padding:1px 1px 1px 1px;
+    }
+    .port-designer li:hover{
+        background:white;
+        color:black;
+    }
+}
+.btn-designer2{
+    background:#17c2a4;
+    color: white;
+    border:#17c2a4;
+    border-radius: 2px;
+    transition: ease-in-out 0.4s;
+}
+.btn-designer2:hover{
+    background:#19d1af;
+    color: white;
+    border:#17c2a4;
+    border-radius: 0px;
+}
+/*testim part*/
+.testim{
+background: #d74680;
+}
+.testim-designer{
+    width:480px;
+    display:flex;
+    align-items: center;
+}
+.testim-designer img{
+    width:50px;
+    margin-right:20px;
+}
+.testim-info{
+    padding:0px 126px 0px 126px;
+    
+}
